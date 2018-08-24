@@ -9,12 +9,12 @@ class Home extends Component {
   };
 
   render() {
-    console.tran.log('connected - log in reactron');  
+   // console.tran.log('connected - log in reactron');  
     return (
       <View style={styles.container}>
         <View style={styles.container}>
           <Button
-            onPress={() => this.props.navigation.navigate('chat', { name: 'Max' })}
+            onPress={() => this.props.navigation.navigate('chat', { name: 'John' })}
             title="Navigate to ChatScreen"
           />
         </View>
