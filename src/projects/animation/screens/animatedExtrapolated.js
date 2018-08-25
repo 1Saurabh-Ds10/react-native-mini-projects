@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, TouchableOpacity, Text, Button, StyleSheet, Animated, Easing} from 'react-native';
 
-export default class App extends React.Component {
+export default class AnimatedExtrapolated extends React.Component {
     state = {
         items: 5,
         animatedValue: new Animated.Value(0)
