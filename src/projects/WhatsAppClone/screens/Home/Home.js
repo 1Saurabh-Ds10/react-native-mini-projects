@@ -8,13 +8,18 @@ class Home extends Component {
     title: 'Home Screen'
   };
 
+  onBtnPress = () => {
+    this.props.navigation.navigate('chat', { name: 'John' });
+
+  } 
+
   render() {
    // console.tran.log('connected - log in reactron');  
     return (
       <View style={styles.container}>
         <View style={styles.container}>
           <Button
-            onPress={() => this.props.navigation.navigate('chat', { name: 'John' })}
+            onPress={this.onBtnPress}
             title="Navigate to ChatScreen"
           />
         </View>
