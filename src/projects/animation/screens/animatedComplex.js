@@ -12,11 +12,11 @@ export default class AnimatedComplex extends React.Component {
         const { timing, sequence, parallel, delay, stagger } = Animated;
         const { animatedValue, animatedColor } = this.state;
         sequence([
-            delay(200),
+            delay(500),
             timing(
                 animatedValue, { toValue: 1 }
             ),
-            delay(200),
+            delay(500),
             timing(
                 animatedValue, { toValue: 2 }
             ),

@@ -4,7 +4,7 @@ import AnimatedLayoutAdvanced from './AnimatedLayoutAdvanced';
 import AnimatedInterpolated from './AnimatedInterpolated';
 import AnimatedExtrapolated from './AnimatedExtrapolated';
 import AnimatedComplex from './AnimatedComplex';
-import Animated from './Animated';
+import AnimatedSimple from './AnimatedSimple';
 
 
 export {
@@ -13,5 +13,5 @@ export {
   AnimatedInterpolated,
   AnimatedExtrapolated,
   AnimatedComplex,
-  Animated
+  AnimatedSimple
 };
