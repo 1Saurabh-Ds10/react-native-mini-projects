@@ -7,7 +7,8 @@ import {
   DATABASE_STORAGE_BUCKET,
   DATABASE_MESSAGING_SENDER_ID
 } from 'react-native-dotenv';
-console.log(DATABASE_URL);
+
+
 export const initialize = () =>
   firebase.initializeApp({
     apiKey: DATABASE_API_KEY,

@@ -19,6 +19,7 @@ export const mockMessages = [
 ];
 
 export const initApi = () => initialize();
+
 export const getMessages = updaterFn => setListener('messages', updaterFn);
 
 export const postMessage = message => {
