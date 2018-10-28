@@ -2,11 +2,22 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'white'
+  image: {
+    height: 200,
+    width: null,
+    flex: 1
+  },
+  icon: {
+    color: "blue"
+  },
+  iconWrapper: {
+    height: 45
+  },
+  likesTextWrapper: {
+    height: 20
+  },
+  nameText: {
+    fontWeight: "900"
   }
 });
 
