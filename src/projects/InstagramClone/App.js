@@ -14,7 +14,7 @@ export default class extends Component {
   render() {
     return (
       <View style={{ flex: 1 }}>
-        <StatusBar barStyle="light-content" />
+      {/*  <StatusBar barStyle="light-content" /> */}
         <AppNavigator />
       </View>
     );
